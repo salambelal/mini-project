@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#container {
+    height: 680px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    background-color: #765849c4;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+#header {
+    font-size: 60px;
+    color: #e6d8cd;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+#imgss {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img {
+    height: 300px;
+    width: 200px;
+
+
+}
+
+#names {
+    margin-left: 110px;
+}
+
+.nam {
+    margin-right: 246px;
+    font-size: 50px;
+    color: #e6d8cd;
+
+}
+#black{
+    color: #e6d8cd; 
+    font-size: 50px; 
+}
+
+
+#pay {
+    margin-left: 377PX;
+   display: flex;
+   justify-content: center;
+    width: 25%;
+}
+
+#ok {
+    
+    margin-left: 435PX;
+    width: 15%;
+    color: #916f55;
+    height: 40px;
+    font-size: large;
+}
+#note{
+    display: flex;
+    justify-content: center;
+    color: #e6d8cd; 
+    text-align: center;
+    font-size: large;
+}
+
+
+@media screen and (min-width: 480px) and ( max-width: 768px){
+
+   
+    #names{
+        margin-left: 50px;
+    }
+    .nam{
+        font-size: 19px;
+        margin-right: 150px;
+        
+    }
+    #black{
+        font-size: 19px;
+     
+    }
+    #pay {
+        margin-left: 212PX;
+      
+    }
+    
+    #ok {
+        
+        margin-left: 240PX;
+        
+    }
+}
+
+@media screen and (min-width: 0px) and ( max-width: 480px){
+    #header{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    #imgss{
+        display: none;
+    }
+
+    #names{
+        margin-left: 0px;
+    }
+    .nam{ 
+        margin: 0%;
+        font-size: 19px;
+    }      
+    #black{
+        margin: 0px;
+        font-size: 19px;
+    }  
+    .check{
+        margin: 0px;
+    }
+    
+    #pay {
+        width: 70%;
+        margin-left: 15%;
+      
+    }
+    
+    #ok {
+        width: 30%;
+        margin-left: 35%;
+        
+    }
+}
+
+
